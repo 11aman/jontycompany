@@ -1,0 +1,369 @@
+
+/**************INDEX FILE CSS*****************/
+
+/*******mini header or first header css*********/
+.first-header
+{
+	background-color: #43aca7;
+	font-size: 0.9rem;
+}
+
+
+/******* header css*********/
+.header
+{
+	background-color: #f2f4f7;
+}
+
+.menu
+{
+	color:rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 600px) {
+ .menu
+{
+    margin-left: -15px;
+}
+
+.menu div
+{
+	font-size: 11px;
+}
+
+}
+
+
+
+.img
+{
+	margin-left: 0px;
+}
+
+
+.menu-option
+{
+	color:black;
+}
+
+.menu
+{
+	margin-left: 23rem;
+}
+
+
+@media screen and (max-width: 600px) {
+ .menu
+{
+	margin-left: 1rem;
+}
+}
+
+
+
+
+
+
+
+
+/******* FIRST DIV css*********/
+
+.background
+{
+	background-image: url('images/first-div1.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+
+
+.first-div-heading
+{
+	color: #000000; font-weight: bold;margin-right:3rem;
+}
+
+@media screen and (max-width: 600px) {
+.first-div-heading
+{
+	color: #000000; font-weight: bold;
+	font-size: 20px;
+	margin-right:0;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+ .first-div-row
+{
+	display:none;
+}
+
+}
+
+
+.card-body
+{
+	padding: 2.8125em 0.3125em 2.8125em 0.3125em;
+}
+
+
+.card
+{ 
+	width: 12rem;
+	text-align: center;
+	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+	backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+	
+}
+
+.card-title
+{
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*************OUR EXPERTISE CSS*****************/
+
+
+.carousel-inner .card-title 
+{
+	text-align: start;
+}
+
+.carousel-inner .card-text
+{
+	color:black;font-size: 10px;text-align:start;
+}
+
+
+.our-expertise
+{
+	height: 656px;
+}
+
+@media screen and (max-width: 600px) {
+ .our-expertise
+{
+	height: 851px;
+}
+}
+
+.our-expertise-heading
+{
+	color: #43aca7;font-size: 1.7rem;font-weight:700;
+}
+
+
+
+
+/***********SLIDER DIV CSS**************/
+
+
+@media screen and (max-width: 600px) {
+ .carouselslider
+{
+    margin-top: 587px;
+}
+}
+
+ .carousel-row
+{
+   padding: 1px 157px;
+}
+  
+ .carousel-row-first-col
+ {
+ 	padding: 11px 20px;
+ } 
+
+ .carousel-row-second-col
+ {
+ 	width: 523px;padding:95px;text-align: start;
+ }
+
+
+ .slider-img
+ {
+ 	border-radius: 25px; padding: 44px;
+ }
+
+
+
+@media screen and (max-width: 600px) {
+ .carousel-row
+{
+   padding: 69px;
+}
+  
+ .carousel-row-first-col
+ {
+ 	padding: 0px 0px;
+ } 
+
+ .carousel-row-second-col
+ {
+ 	margin-top: -50px;
+ 	width: 0px;padding:95px;text-align: start;
+ }
+
+ .slider-img
+ {
+ 	display: none;
+ }
+
+}
+
+
+
+
+/**********OUR CUSTOMER CSS**********/
+
+.our-customer-p
+{
+	font-size: 14px;color: black; padding: 3px 141px;
+}
+
+
+.our-customer-lower-heading strong
+{
+	font-size: 14px;color: black;
+}
+
+
+.our-customer-lower-heading p
+{
+	font-size:12px;font-weight: 600
+}
+
+
+@media screen and (max-width: 600px) {
+
+.our-customer-p
+{
+	font-size: 14px;color: black;padding: 0px;
+}
+
+}
+
+
+
+
+
+
+
+/*********FOOTER********/
+
+
+.handyman-p
+{
+	font-size: 14px;font-weight: 400
+}
+
+.handyman-contact
+{
+	font-size: 14px;font-weight: 400
+}
+
+.handyman-contact span
+{
+	font-size: 14px;font-weight: 400;
+	color:#fbac29;
+}
+
+
+
+.links
+{
+	font-size: 14px;
+	color: white;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************ABOUT US PAGE CSS******************/
+
+
+/********FIRST INTRO CSS********/
+
+.first-intro-heading
+{
+	font-size:2rem;
+}
+
+.first-intro-heading .span
+{
+	color:#43aca7;
+}
+
+.first-intro-para
+{
+	line-height: 1.4rem;
+	font-weight: 300;
+	font-size: 0.9rem;
+	word-break: break-word;
+	padding: 1rem 3rem;
+	text-align:justify;
+}
+
+
+
+
+/********PERSON DATA*********/
+
+.person-heading
+{
+	color:#43aca7;
+}
+
+.person-heading strong
+{
+	color: black;font-size:1.2rem;
+}
+
+
+.person-heading p
+{
+	font-size:0.9rem;text-align:justify;
+}
+
+
+.person-img
+{
+	border-radius:14rem;
+}
+
+
+
+
+/***********VISION DIV*************/
+
+.vision-heading
+{
+	color:#black;
+}
+
+.vision-heading p
+{
+	font-size:0.9rem;text-align:justify;
+}
