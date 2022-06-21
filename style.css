@@ -8,6 +8,18 @@
 	font-size: 0.9rem;
 }
 
+.miniheader-email
+{
+	float:right;
+}
+
+@media screen and (max-width: 600px) {
+ .miniheader-email
+{
+    float: none;
+}
+}
+
 
 /******* header css*********/
 .header
@@ -351,7 +363,7 @@
 .person-img
 {
 	border-radius:14rem;
-	margin-left:-11px;
+	margin-left:-14px;
 }
 
 
