@@ -60,7 +60,7 @@
 
 .menu
 {
-	margin-left: 23rem;
+	margin-left: 30rem;
 }
 
 
@@ -415,7 +415,7 @@
   
   background-color: white;
   transition: transform .2s; /* Animation */
-  width: 22rem;
+  width: 21rem;
   height: 26rem;
   margin: 0 auto;
   box-shadow: -2px 13px 14px 16px #999;
