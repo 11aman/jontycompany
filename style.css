@@ -339,6 +339,22 @@
 }
 
 
+@media screen and (max-width: 600px) {
+
+.first-intro-para
+{
+	text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+
+}
+
+}
+
+
 
 
 /********PERSON DATA*********/
@@ -364,6 +380,22 @@
 {
 	border-radius:14rem;
 	margin-left:-14px;
+}
+
+
+@media screen and (max-width: 600px) 
+{
+  .intro-sec
+  {
+  	margin-top: 39rem;
+  }
+
+  .intro-sec-heading
+  {
+  	margin-top: -64rem;
+  }
+
+
 }
 
 
