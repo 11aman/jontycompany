@@ -337,7 +337,21 @@
 	font-weight: 400;
 }
 
+.who-we-are h4,.who-we-are span,.who-we-are div
+{
+	padding-left: 7rem
+}
 
+
+@media screen and (max-width: 600px) {
+
+.who-we-are h4,.who-we-are span,.who-we-are div
+{
+	padding-left: 0;
+}
+
+
+}
 
 
 
