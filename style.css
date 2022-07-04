@@ -335,9 +335,10 @@
 	font-size: 14px;
 	color: white;
 	font-weight: 400;
+	text-align: start;
 }
 
-.who-we-are h4,.who-we-are span,.who-we-are div
+.who-we-are h4,.who-we-are span
 {
 	padding-left: 7rem
 }
