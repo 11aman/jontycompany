@@ -434,7 +434,8 @@
 .person-img
 {
 	border-radius:14rem;
-	margin-left:49px;
+	margin-left:94px;
+	 height:350px; width:350px;
 }
 
 
@@ -450,8 +451,40 @@
   	margin-top: -64rem;
   }
 
+.person-img
+{
+	border-radius:14rem;
+	margin-left:16%;
+	 height:350px; width:350px;
+}
 
 }
+
+
+.tab-view-intro
+{
+	display: none;
+}
+
+
+@media screen and (min-width: 570px) and (max-width: 800px)
+{
+
+  .tab-view-intro
+  {
+	display: block;
+  }
+
+  .desktop-view-intro
+  {
+	display: none;
+  }
+
+}
+
+
+
+
 
 
 
