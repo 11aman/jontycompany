@@ -336,6 +336,8 @@
 	color: white;
 	font-weight: 400;
 	text-align: start;
+	    text-decoration: none;
+    color: inherit;
 }
 
 .who-we-are h4,.who-we-are span
