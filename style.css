@@ -515,3 +515,20 @@
 
 
 
+/*****************CONTACT PAGE************/
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+ .map
+{
+   margin-left: -52px;
+}
+
+.address
+{
+   margin-left: 51px;
+}
+
+}
