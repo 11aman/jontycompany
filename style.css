@@ -184,6 +184,23 @@
 }
 }
 
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+ .carouselslider
+{
+    margin-top: 337px;
+}
+}
+
+@media screen and (min-width: 588px) and (max-width: 768px) {
+ .carouselslider
+{
+    margin-top: 720px;
+}
+}
+
+
+
  .carousel-row
 {
    padding: 1px 157px;
@@ -206,6 +223,12 @@
  }
 
 
+ .slider-mobile
+ {
+ 	display: none;
+ }
+
+
 
 @media screen and (max-width: 600px) {
  .carousel-row
@@ -224,14 +247,30 @@
  	width: 0px;padding:95px;text-align: start;
  }
 
+
+
+}
+
+
+
+@media screen and (max-width: 1292px) {
+
  .slider-img
  {
  	display: none;
  }
 
+  .slider-mobile
+ {
+ 	display: block;
+ }
+
+ .slider-desktop
+ {
+ 	display: none;
+ }
+
 }
-
-
 
 
 /**********OUR CUSTOMER CSS**********/
