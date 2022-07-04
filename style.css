@@ -82,7 +82,7 @@
 
 .background
 {
-	background-image: url('images/first-div1.jpg');
+	background-image: url('images/index_banner.jpg');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,14 +192,11 @@
  .carousel-row-first-col
  {
  	padding: 11px 20px;
-
  } 
 
  .carousel-row-second-col
  {
  	width: 523px;padding:95px;text-align: start;
-
-
  }
 
 
@@ -225,7 +222,6 @@
  {
  	margin-top: -50px;
  	width: 0px;padding:95px;text-align: start;
- 	    height: 31rem;
  }
 
  .slider-img
@@ -254,7 +250,8 @@
 
 .our-customer-lower-heading p
 {
-	font-size:12px;font-weight: 600
+	font-size:12px;font-weight: 600;
+	color: #43aca7;
 }
 
 
@@ -437,6 +434,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
+    height: 18rem;
 }
 
 
