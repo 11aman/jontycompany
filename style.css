@@ -79,6 +79,8 @@
 }
 }
 
+
+
 .title-heading
 {
 	    font-family: abril-fatface;
@@ -87,8 +89,14 @@
 }
 
 
-
-
+@media screen and (min-width:350px ) {
+.title-heading
+{
+	font-family: abril-fatface;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+}
 
 
 
