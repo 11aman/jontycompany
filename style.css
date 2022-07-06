@@ -60,7 +60,7 @@
 
 .menu
 {
-	margin-left: 30rem;
+	margin-left: 24rem;
 }
 
 
@@ -69,6 +69,21 @@
 {
 	margin-left: 1rem;
 }
+}
+
+
+@media screen and (min-width:1000px ) and (max-width: 1200px) {
+ .menu
+{
+	margin-left: 9rem;
+}
+}
+
+.title-heading
+{
+	    font-family: abril-fatface;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 
