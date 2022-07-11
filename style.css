@@ -436,6 +436,32 @@
 
 
 
+.our-supporting-member
+{
+	height: 455px;
+}
+
+
+@media screen and (max-width: 768px)
+{
+	.our-supporting-member
+	{
+		    margin-bottom: 588px;
+
+	}
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1000px)
+{
+	.our-supporting-member
+	{
+		    margin-bottom: 322px;
+
+	}
+}
+
+
 
 /********PERSON DATA*********/
 
