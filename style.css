@@ -83,7 +83,7 @@
 
 .title-heading
 {
-	    font-family: abril-fatface;
+	    font-family: Gulzar;
     font-weight: bolder;
     font-size: 2rem;
 }
@@ -92,7 +92,7 @@
 @media screen and (min-width:350px ) {
 .title-heading
 {
-	font-family: abril-fatface;
+	font-family: Gulzar;
     font-weight: bolder;
     font-size: 1.2rem;
 }
